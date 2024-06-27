@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-* AWS EC2 Instances:
+* AWS EC2 Instances: **("I used Ubuntu 24.04 LTS")**
     - 1 t2.medium instance (Control Plane)
     - 2 t2.micro instances (worker node)
 * Create a security group and allow all traffic for now, or you can enable the below ports:

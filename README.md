@@ -156,7 +156,7 @@
 ```
 ## Joining Worker Nodes to the Master Node
 
-### Run the join command on each worker node:
+### Run the join command(YOU CAN FIND THIS IN KUBEADM INIT RESULT) on each worker node:
 ```
  - sudo kubeadm join <master-node-ip>:6443 --token <token> --discovery-token-ca-cert-hash sha256:<hash> --cri-socket=/var/run/cri-dockerd.sock
 ```
